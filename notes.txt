@@ -7,3 +7,5 @@ Notes on Media Query findings and responsive units...
 3. Some widths and margins used percentages with lots of decimals... for example width: 91.6666666667%; I'm not exactly sure why, but maybe it gives finer grained control of the sizing and placement of items.
 
 4. I found that #banner id selector in the css used a color code and then url("file.jpg"); I hadn't seen that before.
+
+5. I found that the designer used header and footer html tags within certain containers, so not just at the end or beginning of the page.
