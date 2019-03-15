@@ -1,0 +1,7 @@
+Notes on Media Query findings and responsive units...
+
+1. This template used em responsive units throughout. It did not use rem, vw, or vh.
+
+2. In the media query for a large viewport (1680px) the css changes the width 70em for the container. I wasn't expecting responsive units like this on the width. As I looked further I found that other screen sizes used calc() for the width, for example width: calc(100% - 60px);... I hadn't seen that before so I will explore that further.
+
+3. Some widths and margins used percentages with lots of decimals... for example width: 91.6666666667%; I'm not exactly sure why, but maybe it gives finer grained control of the sizing and placement of items.
