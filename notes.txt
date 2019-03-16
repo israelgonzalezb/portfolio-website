@@ -9,3 +9,5 @@ Notes on Media Query findings and responsive units...
 4. I found that #banner id selector in the css used a color code and then url("file.jpg"); I hadn't seen that before.
 
 5. I found that the designer used header and footer html tags within certain containers, so not just at the end or beginning of the page.
+
+6. I tried to figure out how to deploy my page directly from this repo but realized I had to create a new repo because GH pages can only host from the master branch. My page is now hosted at https://israelgonzalezb.github.io/deployedPortfolioProject/
