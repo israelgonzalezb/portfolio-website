@@ -19,10 +19,14 @@
 
 	// Play initial animations on page load.
 		$window.on('load', function() {
+          
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
 		});
+  $("#banner").click(function(){
+    $("#banner").fadeOut("slow");
+  });
 
 	// Dropdowns.
 		$('#nav > ul').dropotron({
@@ -60,5 +64,6 @@
 					target: $body,
 					visibleClass: 'navPanel-visible'
 				});
+  
 
 })(jQuery);
